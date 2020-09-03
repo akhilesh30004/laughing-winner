@@ -1,0 +1,64 @@
+.navbar-brand > img{
+height: 75px;
+width: 75px;
+display: inline-block;
+}
+.Name{
+font-family: 'ArquitectaHeavy';
+font-size: 22px;
+color: white;
+line-height: 100%;
+text-transform: uppercase;
+letter-spacing: 5px;
+display: inline-block;
+}
+.HeaderNavRight > ul > li > a {
+text-decoration: none;
+color: white;
+transition: all 0.3s ease-out;
+}
+.nav-link {
+color: white;
+}
+.navbar-toggler-icon{
+background-image:url(menu.png);
+background-size: cover;
+}
+a {
+color: black;
+text-decoration: none;
+background-color: transparent;
+}
+.section1{
+background-image: url(headerpic.jpg);
+height: 700px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.centernav{
+padding: 40px;
+text-align: center;
+}
+#footer{
+padding: 7% 15%;
+text-align: center;
+}
+#headerDiv{position: fixed;z-index: 9;}
+#headerDiv.sticky{background-color:black;}
+#headerDiv.sticky .navbar{padding:0;}
+.imgcontent .imagebox {
+overflow: hidden;
+padding:0;
+margin:0;
+}
+.imgcontent .imagebox img {
+transition: all ease 0.5s;
+padding: 10px;
+}
+.imgcontent .imagebox:hover:after {content: "";background: ;height: 100%;width: 100%;position: absolute;opacity: 0.5;}
+.imgcontent .imagebox:hover img {transform: scale(1.5);}
+.imgcontent .imagebox:before {content: "";transition: all ease 0.5s;}
+.row{
+margin-left: 50px;
+margin-right: 50px;
+}
