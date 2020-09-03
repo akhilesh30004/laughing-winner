@@ -21,7 +21,7 @@ transition: all 0.3s ease-out;
 color: white;
 }
 .navbar-toggler-icon{
-background-image:url(menu.png);
+background-image:url(/laughing-winner/menu.png);
 background-size: cover;
 }
 a {
@@ -30,7 +30,7 @@ text-decoration: none;
 background-color: transparent;
 }
 .section1{
-background-image: url(headerpic.jpg);
+background-image: url(/laughing-winner/headerpic.jpg);
 height: 700px;
 background-size: cover;
 background-repeat: no-repeat;
